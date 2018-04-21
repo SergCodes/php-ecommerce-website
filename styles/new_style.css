@@ -1,0 +1,551 @@
+body {
+	margin:0;
+	background: #E0E0E0;
+}
+
+.topnav {
+  position: relative;
+}
+
+.mini_topnav {
+  overflow: hidden;
+  align: center;
+  background-color: #2C3942;
+  position: relative;
+  margin: auto;
+}
+.mini_topnav a {
+  float: right;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: "Helvetica";
+}
+
+.topnav_menu {
+  overflow: hidden;
+  align: center;
+  background:#39464F;
+  border-top-color: #BFA126;
+  border-top-width: 5px;
+  position: relative;
+  margin: auto;
+}
+
+.topnav_mid {
+	overflow: hidden;
+	align: center;
+  background-image: url("../images/top_mid.jpg");
+  padding: 0;
+  list-style: none;
+  position: relative;
+  margin: auto;
+
+}
+
+.topnav_mid .search-container {
+  float: right;
+  width: 75%;
+}
+
+.topnav_mid input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: solid;
+  height: 16px;
+  width: 60%;
+  border-color:white;
+}
+
+.topnav_mid .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  padding-bottom: 8px;
+  background: orange;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav_menu a {
+  float: left;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Helvetica";
+}
+
+.topnav_menu a:hover {
+  background-color: #15325C;
+	background: #2C3942;
+}
+
+.search {
+    width: 400px;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    margin-bottom: 20px;
+    font-size: 21px;
+}
+
+.search_form {
+  /*background-color: #406784;*/
+  color: white;
+  width: 40%;
+  padding-top: 29px;
+  padding-right: 350px;
+  padding-left: 60%;
+}
+
+.search_form_select {
+  /*background-color: #406784;*/
+  color: white;
+  width: 150px;
+  padding-top: 29px;
+  padding-right: 1%;
+  padding-left: 60%;
+  float: right;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: right;
+    width: 60%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: right;
+    width: 30%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.content{
+	margin: auto;
+	background: white;
+	width: 70%;
+	height: auto;
+}
+
+	#books_container{
+		width: 800px;
+		text-align: center;
+		margin-left: 30px;
+		margin-bottom: 10px;
+	}
+
+		#single_book{
+			width: 91%;
+			text-align: center;
+			float:left;
+			color: black;
+			padding: 10px;
+      background-color: white;
+      border-bottom: solid;
+      border-bottom-color: darkgray;
+      border-bottom-width: 1px;
+      margin-left: 65px;
+		}
+
+		#single_book img{
+			border: 2px solid black;
+			display: block;
+			margin: auto;
+		}
+
+.content-details{
+	margin: auto;
+	background: white;
+	width: 70%;
+	height: auto;
+}
+
+	#books_container-details{
+		width: 800px;
+		text-align: center;
+		margin-left: 30px;
+		margin-bottom: 10px;
+	}
+
+		#single_book-details{
+			width: 100%;
+			text-align: left;
+			float:right;
+			color: black;
+			margin: 20px;
+			padding: 30px;
+			border: 2px solid black;
+		}
+
+		#single_book-details img{
+			border: 2px solid black;
+			float: left;
+			display: block;
+			margin: 0 20px 0 0;
+		}
+
+.bottom-of-details{
+	margin: auto;
+	float: left;
+	width: 70%;
+	height: auto;
+}
+
+	#comments{
+		margin: 0 0 100px 200px;
+		display: block;
+		float: left;
+	}
+
+	#ratings{
+		display: block;
+		float: right;
+	}
+
+
+.login_div {
+  width: 300px;
+  margin: auto;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.login_button {
+  font-family: "Helvetica";
+  margin: auto;
+  border-radius: 2px;
+  border: 0;
+  width: 25%;
+  color:white;
+  background-color: green;
+}
+.login_button:hover{
+  background-color: lightgreen;
+}
+
+.signup_button {
+  width: 25%;
+  margin: auto;
+  color:white;
+  background-color: yellow;
+}
+
+.signup_button:hover{
+  background-color: lightyellow;
+}
+
+.user input[type=text], input[type=password], input[type=tel] {
+  font-family: "Helvetica";
+  width: 100%;
+  padding: 2px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+select{
+  width: 100%;
+  padding: 2px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+	.shipping_address {
+		margin-bottom: 1px;
+		margin-top: 1px;
+    margin-left: 5px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+  .book_browsing_details {
+		margin-bottom: 1px;
+		margin-top: 1px;
+    margin-left: 5px;
+		font-family: Helvetica, Arial, sans-serif;
+	}
+
+  .book_browsing_details a {
+    text-decoration: none;
+    color: #406784;
+    margin-left: 5px;
+		font-family: Helvetica, Arial, sans-serif;
+    text-align: left;
+	}
+
+  .book_browsing_details a:link {
+    color: #2C3942;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .book_browsing_details a:hover {
+    cursor: pointer;
+    color: orange;
+  }
+
+  .book_browsing_details p {
+		margin-bottom: 1px;
+		margin-top: 1px;
+    margin-left: 5px;
+		font-family: Helvetica, Arial, sans-serif;
+    text-align: left;
+	}
+
+  .book_browsing_button {
+    background: orange;
+    margin-left: 20px;
+    border: none;
+  }
+
+  .book_browsing_button:hover {
+    background: darkorange;
+    cursor: pointer;
+  }
+
+  .filter_browsing_button {
+    background: orange;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: none;
+  }
+
+  .filter_browsing_button:hover {
+    background: darkorange;
+    cursor: pointer;
+  }
+
+  .address_cell {
+    display: inline-block;
+    margin: 8px;
+    width: 200px;
+    height: 100px;
+    border-style: solid;
+    border: 3px;
+    border-color: black;
+    border-radius: 2px;
+  }
+
+  .shippingAddressManager {
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    background-color: #DDDDDD;
+    border-color: #DDDDDD;
+    width: 70%;
+  }
+
+  .myAccountPage {
+    overflow: hidden;
+    background-color:white;
+    padding: 0;
+    list-style: none;
+    width: 70%;
+    margin: auto;
+    border-left: solid;
+    border-right: solid;
+    border-color: grey;
+  }
+
+  .myAccountSideBox {
+    margin-top: 20px;
+    overflow: hidden;
+    background:lightgray;
+    border: dimgray;
+    width: 160px;
+    float: right;
+    text-align: center;
+    border-radius: 3px;
+    margin-right: 10px;
+  }
+
+  .myAccountSideBox a {
+    font-weight: bold;
+  }
+
+  .myAccountSideBox a {
+    float: left;
+    color: black;
+    text-align: right;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Helvetica";
+  }
+
+  .myAccountSideBox a:hover {
+    background: #406784;
+  }
+
+  .thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+  .userProfileName {
+    font-family: Helvetica;
+    float: left;
+  }
+
+	/* Pagination links */
+	.pagination a {
+	    color: black;
+	    float: left;
+	    padding: 8px 16px;
+	    text-decoration: none;
+	    transition: background-color .3s;
+      float: right;
+      font-weight: bold;
+      font-family: Helvetica;
+	}
+
+	/* Style the active/current link */
+	.pagination a.active {
+	    background-color: #2C3942;
+	    color: white;
+	}
+
+	/* Add a grey background color on mouse-over */
+	.pagination a:hover:not(.active) {background-color: #406784;}
+
+	.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+
+/*
+overflow: hidden;
+align: center;
+background:lightgray;
+border: dimgray;
+
+*/
+.dropdown .dropbtn {
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: Helvetica;
+    padding: 8px 10px;
+    background-color: inherit;
+    margin-top: 2px;
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #2C3942;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 9999;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.adv_filter_select {
+  width: 400px;
+  
+}
+
+#myBooks {
+  background-color: white;
+  width: 70%;
+  border-radius: 3px;
+  border-left: solid;
+  border-right: solid;
+  border-color: gray; 
+}
